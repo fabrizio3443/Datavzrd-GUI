@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from './components/AppInstaller.vue'
+  import HelloWorld from './components/AppInstaller.vue'
 </script>
 
 <template>
