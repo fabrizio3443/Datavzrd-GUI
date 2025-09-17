@@ -1,3 +1,4 @@
+<!-- 
 <script setup lang="ts">
   import { ref } from 'vue'
 
@@ -7,9 +8,10 @@
     message.value = "Hello from vue!"
   }
 </script>
-
+!-->
 <template>
   <h1 class="installer_header">Datavzrd Installer</h1>
-  <div>{{ message }}</div>
-  <button @click="updateMessage">Change</button>
+  <p>Welcome to the Datavzrd dependency installer</p>
+  <p>Clicking on the install button will install Datavzrd and it's dependencies</p>
+  <button>Install</button>
 </template>
